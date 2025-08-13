@@ -19,6 +19,8 @@
 | 0414 | 第三大的数 | 简单 |[python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0414_third_maximum_number.py)  | |
 | 0455 | 分发饼干 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0455_assign_cookies.py) | |
 | 0506 | 相对名次 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0506_relative_ranks.py) | |
+| 0561 | 数组拆分 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0561_array_partition.py) | |
+| 0597 | 最长和谐子列 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0594_longest_harmonious_sussequence.py) | |
 
 
 
