@@ -2,6 +2,38 @@
 
 > 使用python 学习并尝试解决LeetCode 算法问题
 
+## 算法设计思想
+
+### 动态维护
+
+动态维护是一高效的算法设计思想，核心是在**单次遍历数据的过程中实时更新关键状态**，避免重复计算或存储全部数据。在处理大规模数据流或者需要高效计算的问题中尤为重要。
+
+**核心思想**：
+
+1.状态精简：只需维护解决问题所需的最小状态集
+
+2.实时更新：在数据到达时立即更新状态
+
+3.增量计算：基于前一个状态计算新状态，避免重复计算
+
+4.空间优化：通常使用常数空间（**O(1)**）
+
+**典型应用场景：**
+
+1.极值统计
+
+2.TOP K元素
+
+3.滑动窗口统计
+
+4.数据流中位数
+
+5.连续序列问题
+
+### 贪心策略
+
+
+
 ## 已完成题目
 | 题号 | 题目名称         | 难度 | 代码                                                         | -- |
 | ---- | ---------------- | ---- | ------------------------------------------------------------ | ---- |
@@ -20,7 +52,20 @@
 | 0455 | 分发饼干 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0455_assign_cookies.py) | |
 | 0506 | 相对名次 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0506_relative_ranks.py) | |
 | 0561 | 数组拆分 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0561_array_partition.py) | |
-| 0597 | 最长和谐子列 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0594_longest_harmonious_sussequence.py) | |
+| 0594 | 最长和谐子列 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0594_longest_harmonious_sussequence.py) | |
+| 0628 | 三个数的最大乘积 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0628_maximum_product_of_three_numbers.py) | |
+| 0645 | 错误的集合 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0645_set_mismatch.py) | |
+| 0747 | 至少是其他数字两倍的最大数 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0747_largest_num_at_least_twice_of_others.py) | |
+| 0888 | 公平的糖果交换 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0888_fair_candy_swap.py) | |
+| 0905 | 按奇偶排序数组 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0905_sort_array_by_parity.py) | |
+| 0976 | 三角形的最大周长 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0976_largest_perimeter_triangle.py) | |
+| 0977 | 有序数组的平方 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0977_squares_of_sorted_array.py.py) | |
+| 1005 | K次取反后最大化的数组和 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1005_maximum_sum_of_array_after_k_negations.py) | |
+| 1051 | 高度检查器 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1051_height_checkr.py) | |
+| 1200 | 最小绝对差 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1200_minimum_absolute_difference.py) | |
+| 1464 | 数组中量元素的最大乘积 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1464_maximum_product_of_two_elements_in_array.py) | |
+| 1491 | 去掉最低最高的平均工资 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1491_average_salary_excluding_maximum_and_minimum.py) | |
+| 1502 | 判断能否形成等差数列 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1502_make_arithmetic_progression_from_sequence.py) | |
 
 
 
