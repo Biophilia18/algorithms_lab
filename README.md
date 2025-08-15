@@ -32,7 +32,7 @@
 
 ### 贪心策略
 
-
+贪心策略（Greedy Strategy），也称为贪心算法，是一种**在每一步选择中都采取当前看起来最优的选择**，从而希望最终得到全局最优解的算法或策略。它并不考虑整体的最优，而是每一步都追求局部最优，希望这些局部最优的选择能最终导向全局最优 
 
 ## 已完成题目
 | 题号 | 题目名称         | 难度 | 代码                                                         | -- |
@@ -66,6 +66,7 @@
 | 1464 | 数组中量元素的最大乘积 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1464_maximum_product_of_two_elements_in_array.py) | |
 | 1491 | 去掉最低最高的平均工资 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1491_average_salary_excluding_maximum_and_minimum.py) | |
 | 1502 | 判断能否形成等差数列 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1502_make_arithmetic_progression_from_sequence.py) | |
+| 1913 | 两个数对之间最大的乘积 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1913_maximum_product_of_two_pairs.py) | |
 
 
 

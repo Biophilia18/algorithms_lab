@@ -1,0 +1,20 @@
+"""
+# -*- coding: utf-8 -*-
+@File    : p1913_maximum_product_of_two_pairs.py
+@Author  : admin1
+@Date    : 2025/8/15 19:41
+@Description :
+    1913.两个数之间的最大乘积差
+    https://leetcode.com/problems/maximum-product-difference-between-two-pairs/
+    两个数对 (a, b) 和 (c, d) 之间的 乘积差 定义为 (a * b) - (c * d) 。
+    例如，(5, 6) 和 (2, 7) 之间的乘积差是 (5 * 6) - (2 * 7) = 16 。
+    给你一个整数数组 nums ，选出四个 不同的 下标 w、x、y 和 z ，使数对 (nums[w], nums[x]) 和 (nums[y], nums[z]) 之间的 乘积差 取到 最大值 。
+    返回以这种方式取得的乘积差中的 最大值 。
+    排序后动态维护最小最大两对数
+"""
+
+
+def max_product_diff(nums: list[int]) -> int:
+    nums.sort()
+    n = len(nums)
+    return nums[n - 1] * nums[n - 2] - nums[0] * nums[1]
