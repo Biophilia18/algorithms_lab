@@ -7,11 +7,8 @@
 """
 import functools
 import random
-import sys
 import time
-from turtle import pd
-import pandas as pd
-import matplotlib.pyplot as plt
+
 
 # 计时器
 def timer(func):
@@ -23,10 +20,9 @@ def timer(func):
         res = func(*args, **kwargs)
         end = time.perf_counter()
         print(f"函数 {func.__name__} 执行时间： {end - start:.6f} 秒")
-        return res,end - res
+        return res, end - res
 
     return warpper
-
 
 
 def sequential_search(arr, target):
@@ -42,7 +38,6 @@ def sequential_search(arr, target):
         if arr[i] == target:
             return i
     return -1
-
 
 
 def binary_search(arr, target):
@@ -68,7 +63,6 @@ def binary_search(arr, target):
     return -1  # 找不到
 
 
-
 def bubble_sort(arr):
     """
     冒泡排序算法：时间复杂度：O(n²) - 嵌套循环遍历所有元素
@@ -87,7 +81,6 @@ def bubble_sort(arr):
     return arr
 
 
-
 def selection_sort(arr):
     """
     选择排序： 时间复杂度：O(n²) - 每次找到最小元素
@@ -104,7 +97,6 @@ def selection_sort(arr):
     return arr
 
 
-
 def quick_sort(arr):
     """
     快速排序：时间复杂度：平均情况：O(n log n) 最坏情况：O(n²)（当分区不平衡时）
@@ -119,7 +111,6 @@ def quick_sort(arr):
     middle = [x for x in arr if x == pivot]  # 等于基准值的元素
     right = [x for x in arr if x > pivot]  # 大于基准值的元素
     return quick_sort(left) + middle + quick_sort(right)  # 递归排序左右分区的元素然后合并结果
-
 
 
 def quick_sort_optimize(arr):
@@ -164,7 +155,6 @@ def quick_sort_optimize(arr):
     return arr
 
 
-
 def builtin_sort(arr):  # 内置排序
     return sorted(arr)
 
@@ -197,9 +187,6 @@ def fibonacci(n):
 # print(bubble_sort(test_data))
 # print(quick_sort(test_data))
 # print(selection_sort(test_data))
-
-import time
-import random
 
 
 def test_performance_fixed():
@@ -239,12 +226,11 @@ def test_performance_fixed():
         optimized_time = 1
 
         # improvement = (simple_time - optimized_time) / simple_time * 100
-        results.append((size, sort_time,select_time,buble_time,simple_time, optimized_time))
+        results.append((size, sort_time, select_time, buble_time, simple_time, optimized_time))
         # results.append((size, sort_time))
 
     print("\n修复后性能对比:")
     print("数据量   | 内置排序     | 选择排序    | 冒泡排序    |   简单快排     | 优化快排     | 对比内置")
     print("--------|------------|----------|-----------|-----------|----------|---------")
-    for size, sort_time,select_time,buble_time, st, ot in results:
+    for size, sort_time, select_time, buble_time, st, ot in results:
         print(f"{size:7} | {sort_time:.6f}s  | {select_time:.6f}s | {buble_time:.6f}s  | {st:.6f}s| {ot:.6f}s  | --")
-

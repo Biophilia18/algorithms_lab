@@ -12,7 +12,7 @@
 from collections import Counter
 
 
-def find_even_nums(digits:list[int])->list[int]:
+def find_even_nums(digits: list[int]) -> list[int]:
     # 1. 使用 Counter 统计原始数组中每个数字的出现次数
     # Counter 是字典的子类，用于计数可哈希对象
     # 例如：digits = [2,2,8,8,2] → orig_freq = {2:3, 8:2}
