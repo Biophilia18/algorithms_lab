@@ -69,6 +69,7 @@
 | 1502 | 判断能否形成等差数列    | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1502_make_arithmetic_progression_from_sequence.py)    |     |
 | 1913 | 两个数对之间最大的乘积   | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1913_maximum_product_of_two_pairs.py)                 |     |
 | 0015 | 三数之和          | 中等  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0015_sum_of_3_nums.py)                                |     |
+| 2094 | 找出3位偶数        | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p2094_find_three_even_nums.py)                         |     |
 
 
 
