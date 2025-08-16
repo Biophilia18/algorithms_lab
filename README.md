@@ -35,38 +35,43 @@
 贪心策略（Greedy Strategy），也称为贪心算法，是一种**在每一步选择中都采取当前看起来最优的选择**，从而希望最终得到全局最优解的算法或策略。它并不考虑整体的最优，而是每一步都追求局部最优，希望这些局部最优的选择能最终导向全局最优 
 
 ## 已完成题目
-| 题号 | 题目名称         | 难度 | 代码                                                         | -- |
-| ---- | ---------------- | ---- | ------------------------------------------------------------ | ---- |
-| 0088 | 合并两个有序数组 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p088_merge_sorted_array.py) |      |
-| 0217 | 存在重复元素     | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0217_contains_duplicate.py) |      |
-| 0009 | 回文数 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0009_palindrome_number.py) | |
-| 0013 | 罗马字转数字 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0013_roman_to_int.py) | |
-| 0014 | 最长的公共前缀 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0014_longest_common_prefix.py) | |
-| 0001 | 两数之和 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0001_two_sum.py) | |
-| 0169 | 多数元素（众数） | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0169_majority_element.py) | |
-| 0242 | 有效的字母异位次 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0242_valid_anagram.py) | |
-| 0268 | 丢失的数字 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0268_missing_number.py) | |
-| 0349 | 两个数组的交集 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0349_intersection_of_two_array.py) | |
-| 0389 | 找不同 | 简单 |  [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0389_find_difference.py)| |
-| 0414 | 第三大的数 | 简单 |[python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0414_third_maximum_number.py)  | |
-| 0455 | 分发饼干 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0455_assign_cookies.py) | |
-| 0506 | 相对名次 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0506_relative_ranks.py) | |
-| 0561 | 数组拆分 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0561_array_partition.py) | |
-| 0594 | 最长和谐子列 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0594_longest_harmonious_sussequence.py) | |
-| 0628 | 三个数的最大乘积 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0628_maximum_product_of_three_numbers.py) | |
-| 0645 | 错误的集合 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0645_set_mismatch.py) | |
-| 0747 | 至少是其他数字两倍的最大数 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0747_largest_num_at_least_twice_of_others.py) | |
-| 0888 | 公平的糖果交换 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0888_fair_candy_swap.py) | |
-| 0905 | 按奇偶排序数组 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0905_sort_array_by_parity.py) | |
-| 0976 | 三角形的最大周长 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0976_largest_perimeter_triangle.py) | |
-| 0977 | 有序数组的平方 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0977_squares_of_sorted_array.py.py) | |
-| 1005 | K次取反后最大化的数组和 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1005_maximum_sum_of_array_after_k_negations.py) | |
-| 1051 | 高度检查器 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1051_height_checkr.py) | |
-| 1200 | 最小绝对差 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1200_minimum_absolute_difference.py) | |
-| 1464 | 数组中量元素的最大乘积 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1464_maximum_product_of_two_elements_in_array.py) | |
-| 1491 | 去掉最低最高的平均工资 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1491_average_salary_excluding_maximum_and_minimum.py) | |
-| 1502 | 判断能否形成等差数列 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1502_make_arithmetic_progression_from_sequence.py) | |
-| 1913 | 两个数对之间最大的乘积 | 简单 | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1913_maximum_product_of_two_pairs.py) | |
+
+| 题号   | 题目名称          | 难度  | 代码                                                                                                                               | -   |
+| ---- | ------------- | --- | -------------------------------------------------------------------------------------------------------------------------------- | --- |
+| 0088 | 合并两个有序数组      | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p088_merge_sorted_array.py)                            |     |
+| 0217 | 存在重复元素        | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0217_contains_duplicate.py)                           |     |
+| 0009 | 回文数           | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0009_palindrome_number.py)                            |     |
+| 0013 | 罗马字转数字        | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0013_roman_to_int.py)                                 |     |
+| 0014 | 最长的公共前缀       | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0014_longest_common_prefix.py)                        |     |
+| 0001 | 两数之和          | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0001_two_sum.py)                                      |     |
+| 0169 | 多数元素（众数）      | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0169_majority_element.py)                             |     |
+| 0242 | 有效的字母异位次      | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0242_valid_anagram.py)                                |     |
+| 0268 | 丢失的数字         | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0268_missing_number.py)                               |     |
+| 0349 | 两个数组的交集       | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0349_intersection_of_two_array.py)                    |     |
+| 0389 | 找不同           | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0389_find_difference.py)                              |     |
+| 0414 | 第三大的数         | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0414_third_maximum_number.py)                         |     |
+| 0455 | 分发饼干          | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0455_assign_cookies.py)                               |     |
+| 0506 | 相对名次          | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0506_relative_ranks.py)                               |     |
+| 0561 | 数组拆分          | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0561_array_partition.py)                              |     |
+| 0594 | 最长和谐子列        | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0594_longest_harmonious_sussequence.py)               |     |
+| 0628 | 三个数的最大乘积      | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0628_maximum_product_of_three_numbers.py)             |     |
+| 0645 | 错误的集合         | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0645_set_mismatch.py)                                 |     |
+| 0747 | 至少是其他数字两倍的最大数 | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0747_largest_num_at_least_twice_of_others.py)         |     |
+| 0888 | 公平的糖果交换       | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0888_fair_candy_swap.py)                              |     |
+| 0905 | 按奇偶排序数组       | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0905_sort_array_by_parity.py)                         |     |
+| 0976 | 三角形的最大周长      | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0976_largest_perimeter_triangle.py)                   |     |
+| 0977 | 有序数组的平方       | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0977_squares_of_sorted_array.py.py)                   |     |
+| 1005 | K次取反后最大化的数组和  | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1005_maximum_sum_of_array_after_k_negations.py)       |     |
+| 1051 | 高度检查器         | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1051_height_checkr.py)                                |     |
+| 1200 | 最小绝对差         | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1200_minimum_absolute_difference.py)                  |     |
+| 1464 | 数组中量元素的最大乘积   | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1464_maximum_product_of_two_elements_in_array.py)     |     |
+| 1491 | 去掉最低最高的平均工资   | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1491_average_salary_excluding_maximum_and_minimum.py) |     |
+| 1502 | 判断能否形成等差数列    | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1502_make_arithmetic_progression_from_sequence.py)    |     |
+| 1913 | 两个数对之间最大的乘积   | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p1913_maximum_product_of_two_pairs.py)                 |     |
+| 0015 | 三数之和          | 中等  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0015_sum_of_3_nums.py)                                |     |
+
+
+
 
 
 
