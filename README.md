@@ -2,7 +2,17 @@
 
 > 使用python 学习并尝试解决LeetCode 算法问题
 
+## 数据结构
 
+- Array
+
+- String
+
+- Two pointers
+
+- Binary Search
+
+- Sorting
 
 ## 动态维护
 
@@ -76,5 +86,7 @@
 | 2154 | 找到的值乘以2       | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p2154_find_final_value.py)                                 |     |
 | 2160 | 拆分数位后4位数字的最小和 | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p2160_minimum_sum_of_four_digits_splitting_from_number.py) |     |
 | 2231 | 按奇偶性交换后的最大数字  | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p2231_swap_digits_to_get_largest_number.py)                |     |
+| 0035 | 搜索插入位置        | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0035_search_insert_postion.py)                            |     |
+| 0069 | 求平方根          | 简单  | [python](https://github.com/Biophilia18/algorithms_lab/tree/main/leetcode/p0069_sqrtx.py)                                            |     |
 
 
